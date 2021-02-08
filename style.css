@@ -1,0 +1,26 @@
+h1 {
+  text-align: center;
+  color: black;
+  border: solid;
+}
+
+h3 {
+  text-decoration: underline;
+
+}
+
+body {
+  background-image: url("https://i.redd.it/zln3j6lrn4g61.jpg");
+}
+
+ul {
+  margin: auto;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: black;
+}
