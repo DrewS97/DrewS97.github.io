@@ -4,10 +4,10 @@ function determineHeightAndThenDrawPyramid() {
   let height = document.getElementById("height").value;
 
   //Creates btn that 'onclick' calls the printPyramid function
-  let btn = document.getElementById("MyBtn").addEventListener("click", printPyramid(height));
+  printPyramid(height);
 }
 
-
+document.getElementById("MyBtn").addEventListener("click", determineHeightAndThenDrawPyramid);
 
 //Building the pyramid
 function printPyramid(height) {
